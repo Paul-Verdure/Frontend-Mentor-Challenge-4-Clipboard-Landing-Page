@@ -1,0 +1,409 @@
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    background: url('bg-header-desktop.png') no-repeat fixed top;
+    font-size: 18px;
+}
+
+header {
+    text-align: center;
+    margin: 125px 0 0 auto;
+}
+
+header .logo {
+   width: 80px; 
+   height: 80px;
+}
+
+h1, h2, h3 { 
+    color: hsl(210, 10%, 33%);
+}
+
+.text, .small_text, .intro {
+    color: hsl(0, 0%, 69%);
+}
+
+h1 {
+    font-size: 33px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: normal; 
+    text-align: center;
+    margin: 100px 0 0 0;
+}
+
+
+
+.intro {
+    width: 500px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.text {
+    width: 500px;
+    margin: 0 auto;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 10px ;
+}
+
+.small_text {
+    font-size: 12px;
+    line-height: 20px;
+
+}
+
+.green_button {
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom: 5px hsla(171, 66%, 44%, 0.24) solid ;
+    border-bottom-style: outset;
+    box-shadow: 0px 6px 3px hsla(171, 66%, 44%, 0.24) ;
+    margin: 25px 5px 0 0;
+}
+
+.green_button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    
+}
+
+.blue_button {
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom: 5px hsla(233, 100%, 69%, 0.356) solid ;
+    border-bottom-style: outset;
+    box-shadow: 0px 6px 3px hsla(233, 100%, 69%, 0.356) ;
+    margin: 25px 0 0 5px;
+}
+
+.blue_button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+#computer_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+#computer_text {
+    position: relative;
+    left: 80px;
+    padding-top: 60px;
+    width: 270px;
+}
+
+#computer {
+    margin-left: -500px;
+    
+}
+
+#devices {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    width: 40%;
+}
+
+#tools {
+    margin-top: 50px;
+    display: flex;  
+    justify-content: center;
+    text-align: center;
+
+}
+
+#create, #snippets, #sneak {
+    width: 250px;
+}
+
+#create {
+    position: relative;
+    bottom: 8px;
+    right: 10px;
+}
+
+
+.logos {
+    display:inline-block;
+    margin: 100px 50px 50px 50px;
+    height: auto ;
+    width: 120px;
+}
+
+#companies {
+    text-align: center;
+}
+
+#bottom {
+    margin: 0 auto;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1439px;
+    height: 100px;
+}
+
+#bottom .logo {
+    width: 50px;
+    height: 50px;
+}
+
+.social {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px 0 5px;
+}
+
+.bottom_text {
+    font-size: 13px;
+    line-height: 30px;
+    color: hsl(240, 0%, 48%);
+}
+
+#faqs {
+    position: relative;
+    right: 50px;
+}
+
+#privacy{
+    position: relative;
+    right: 150px; 
+}
+
+#install{
+    position: relative;
+    right: 250px; 
+    bottom: 15px;
+}
+
+@media screen and (max-width: 1280px)
+{
+
+    body {
+        background: url('bg-header-mobile.png') no-repeat fixed top ;
+    }
+
+    header {
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 125px;
+        width: 315px;
+        height: auto;
+        
+    }
+
+    .text {
+        width: 315px;
+        height: auto;
+        margin: 0 auto;
+        font-size: 13px;
+        line-height: 20px;
+        text-align: center;
+        margin-top: 10px ;
+    }
+
+
+
+    .intro {
+        width: 315px;
+        height: auto;
+        margin: 0 auto;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+h1 {
+    font-size: 30px;
+    font-weight: normal;
+    width: 305px;
+
+}
+
+h2 {
+    font-size: 27px;
+    width: 315px;
+    font-weight: normal; 
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+h3 {
+    width: 315px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.buttons {
+    display: block;
+    width: 315px;
+    height: auto;
+    margin: 0 auto;
+}
+.green_button {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    width: 250px;
+}
+
+.blue_button {
+    margin: 0 auto;
+    width: 250px;
+    margin-bottom: 100px;
+}
+
+#computer_block {
+    display: block;
+    width: 315px;
+    height: auto;
+    margin-top: 150px;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+#computer {
+    margin-left: 0;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 315px;
+    height: auto;
+    display: block
+}
+
+#computer_text {
+    position: initial;
+    left: 0px;
+    padding-top: 60px;
+    width: 295px;
+    height: auto;
+    margin: 0 auto;
+}
+#devices {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    width: 315px;
+    height: auto;
+}
+
+#tools {
+
+    display: block;
+    width: 295px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#create, #snippets, #sneak {
+    width: 295px;
+    margin-top: 100px;
+}
+
+#create {
+    position: initial;
+    bottom: 0px;
+    right: 0px;
+}
+
+.icons {
+    position: relative;
+    bottom: 30px;
+}
+
+.logos {
+    display: block;
+    margin: 0 auto;
+    margin-top: 70px;
+    height: auto ;
+    width: 120px;
+}
+
+#companies {
+    text-align: center;
+}
+
+#bottom {
+    margin: 0 auto;
+    background-color: rgb(243, 243, 243);
+    display: block;
+    width: 375px;
+    height: 300px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#bottom .logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px ;
+}
+
+.social {
+    width: 20px;
+    height: 20px;
+    margin: 0 15px 0 15px;
+}
+
+.bottom_text {
+    font-size: 13px;
+    line-height: 30px;
+    color: hsl(240, 0%, 48%);
+}
+
+#faqs {
+    position: initial;
+    right: 0px;
+}
+
+#privacy{
+    position: relative;
+    right: 0px; 
+    bottom: 10px;
+}
+
+#install{
+    position: relative;
+    right: 0px; 
+    bottom: 20px;
+    margin-bottom: 10px;
+}
+
+
+}
